@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class FollowCursorScript : MonoBehaviour
 {
+   // public Vector2 mousePos;
     void Start()
     {
         
