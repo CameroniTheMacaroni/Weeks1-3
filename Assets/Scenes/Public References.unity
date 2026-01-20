@@ -242,7 +242,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1810854235}
-  col: {r: 0.9245283, g: 0.056692798, b: 0.40236342, a: 1}
+  col: {r: 0.8862745, g: 0.14117648, b: 0.39607844, a: 1}
+  barrels:
+  - {fileID: 8245305397469200176, guid: 7325cb2f51d34fb4da5e5c33ebff71db, type: 3}
+  - {fileID: 9055863997953671947, guid: ae3435eb873794f4aad3d12f14a9fc6f, type: 3}
+  - {fileID: 8310752768603522028, guid: 3662a97cdce73b6438721e9cc78fa2a9, type: 3}
+  - {fileID: 1597492703415919409, guid: 1cffdeb695458b944b296b828067e758, type: 3}
+  - {fileID: 1311752102108684794, guid: f3602b92cfe389345b3557ae233c7d0e, type: 3}
+  - {fileID: 7664051273582161203, guid: acf5e717689426c41b9b940f54bfd34a, type: 3}
+  - {fileID: -1813272262993250906, guid: a73cf436b11ed194ebda863ccd7e3e41, type: 3}
+  - {fileID: 21300000, guid: eb99a2335dce5e04b97b29675ddef408, type: 3}
+  - {fileID: -983296130339864622, guid: f1d519290bc49d94dabd1833470c3eb4, type: 3}
+  - {fileID: -7926456836384390584, guid: 4e0b37d33f3ec9d4c9156c9968ba6de7, type: 3}
+  randomNumber: 0
 --- !u!212 &1810854235
 SpriteRenderer:
   m_ObjectHideFlags: 0
