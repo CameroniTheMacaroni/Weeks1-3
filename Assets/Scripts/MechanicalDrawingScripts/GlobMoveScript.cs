@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class GlobMoveScript : MonoBehaviour
 {
-    //public Vector2 startPos; //start and end for position
-    //public Vector2 endPos;
+    public AnimationCurve curve;
+    public Vector2 startPos; //start and end for position
+    public Vector2 endPos;
 
     public Vector3 startRot;//start and end for rotation
     public Vector3 endRot;
@@ -25,14 +26,14 @@ public class GlobMoveScript : MonoBehaviour
 
     void Update()
     {
-        t += Time.deltaTime;
+        t += Time.deltaTime/10;
         if (t > 1)
         {
             t = 0;
         }
 
-        //transform.position = Vector2.Lerp(PosRangeStart, PosRangeEnd, t);
-        transform.eulerAngles = Vector3.Lerp(startRot, endRot, t);
-        transform.localScale = Vector2.Lerp(endScale, startScale, t);
+        transform.localPosition = Vector2.Lerp(startPos, endPos, curve.Evaluate(t));
+        transform.eulerAngles = Vector3.Lerp(startRot, endRot, curve.Evaluate(t));
+        transform.localScale = Vector2.Lerp(endScale, startScale, curve.Evaluate(t));
     }
 }
