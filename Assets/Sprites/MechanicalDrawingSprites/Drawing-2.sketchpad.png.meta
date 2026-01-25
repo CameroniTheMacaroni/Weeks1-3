@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4b55e53739d03ad44a940ccaec3076ca
+guid: 6bc94191e7a21db4fa09ef19e456a3fe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7417622541813823285
-    second: child-bedroom-background-banner-in-flat-cartoon-design-cozy-boys-room-with-mansard-windows-bed-and-nightstand-bookshelves-desk-chair-play-tent-toys-home-interior-poster-illustration-vector_0
+      213: -7848195912212921854
+    second: Drawing-2.sketchpad_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: child-bedroom-background-banner-in-flat-cartoon-design-cozy-boys-room-with-mansard-windows-bed-and-nightstand-bookshelves-desk-chair-play-tent-toys-home-interior-poster-illustration-vector_0
+      name: Drawing-2.sketchpad_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 640
+        x: 132
+        y: 11
+        width: 267
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc8c145399f4f0990800000000000000
-      internalID: -7417622541813823285
+      spriteID: 20240ec366b951390800000000000000
+      internalID: -7848195912212921854
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      child-bedroom-background-banner-in-flat-cartoon-design-cozy-boys-room-with-mansard-windows-bed-and-nightstand-bookshelves-desk-chair-play-tent-toys-home-interior-poster-illustration-vector_0: -7417622541813823285
+      Drawing-2.sketchpad_0: -7848195912212921854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
